@@ -1,0 +1,96 @@
+/* Navbar Styling */
+* {
+	-webkit-transition: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+h1{
+    color:#c0c0c0;
+    font-weight:100;
+}
+
+body {
+    background-color: #141414e5;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.btn{
+    color:#999;
+    background:rgba(0, 0, 0, 0.5);
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+  
+.btn:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px 20px #000;
+    color:#1b1b1b;
+}
+
+
+
+.about-me {
+    display: inline-block;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+.card-body {
+    background-color: #f7f4f4e0;
+    color: black;
+}
+
+.card-header {
+    background-color: rgb(87, 87, 87);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 15px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
