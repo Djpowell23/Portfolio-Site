@@ -4,8 +4,14 @@ var currentVideo = '';
 // Show Trivia Video
 $('#project-list').on('click','#trivia', function() {
     // Create variable with new video
-    currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
-  
+    // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    
+    // Images to take video spot until I can record them
+    $('#video-player').append(
+        '<img class="placeholder" style="width:620px; height:400px;" ' + 
+        'src="assets/images/trivia-img.jpg"' + 'alt="trivia image">' + '</img>'
+    );
+
     // Create variable to store Link-To-Code Button
     var codeBtn = $('<button>');
     // Add classes to codeBtn
@@ -34,8 +40,16 @@ $('#project-list').on('click','#trivia', function() {
 // Show Crystal Collector Video
 $('#project-list').on('click','#crystal', function() {
     // Create variable with new video
-    currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     
+    // Images to take video spot until I can record them
+    $('#video-player').append(
+        '<img class="placeholder" style="width:620px; height:400px;" ' + 
+        'src="assets/images/crystal-img.jpg"' + 'alt="crystal image">' + '</img>'
+    );
+
+
+
     // Create variable to store Link-To-Code Button
     var codeBtn = $('<button>');
     // Add classes to codeBtn
@@ -63,8 +77,15 @@ $('#project-list').on('click','#crystal', function() {
 // Show Hangman Game Video
 $('#project-list').on('click','#hangman', function() {
     // Create variable with new video
-    currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     
+    // Images to take video spot until I can record them
+    $('#video-player').append(
+        '<img class="placeholder" style="width:620px; height:400px;" ' + 
+        'src="assets/images/hangman-img.jpg"' + 'alt="trivia image">' + '</img>'
+    );
+
+
     // Create variable to store Link-To-Code Button
     var codeBtn = $('<button>');
     // Add classes to codeBtn
@@ -92,8 +113,14 @@ $('#project-list').on('click','#hangman', function() {
 // Show GIPHY Video
 $('#project-list').on('click','#giphy', function() {
     // Create variable with new video
-    currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     
+    // Images to take video spot until I can record them
+    $('#video-player').append(
+        '<img class="placeholder" style="width:620px; height:400px;" ' + 
+        'src="assets/images/giphy-img.jpg"' + 'alt="trivia image">' + '</img>'
+    );
+
     // Create variable to store Link-To-Code Button
     var codeBtn = $('<button>');
     // Add classes to codeBtn
@@ -121,8 +148,14 @@ $('#project-list').on('click','#giphy', function() {
 // Show Tunedea Video
 $('#project-list').on('click','#tunedea', function() {
    // Create variable with new video
-   currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+   // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     
+    // Images to take video spot until I can record them
+    $('#video-player').append(
+        '<img class="placeholder" style="width:620px; height:400px;" ' + 
+        'src="assets/images/tunedea-img.jpg"' + 'alt="trivia image">' + '</img>'
+    );
+
    // Create variable to store Link-To-Code Button
    var codeBtn = $('<button>');
    // Add classes to codeBtn

@@ -66,11 +66,7 @@ body {
 }
 
 
-/* Alphabetical for now */
-.about-me {
-    display: inline-block;
-}
-
+/* Cards */
 .card {
     border: 1px solid black;
 }
@@ -88,6 +84,16 @@ body {
     text-align: center;
 }
 
+/* Alphabetical for now */
+.about-me {
+    display: inline-block;
+}
+
+hr {
+    background-color: white;
+}
+
+/* Bootstrap CSS */
 .column {
     flex: 25%;
     max-width: 25%;
@@ -97,10 +103,6 @@ body {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-}
-
-hr {
-    background-color: white;
 }
 
 .row {
@@ -124,18 +126,19 @@ hr {
 
 
 /* Video Player */
-.video-responsive{
+.video-responsive {
+    height:0;
+    margin-top: 15px;
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
 }
-.video-responsive iframe{
-    left:0;
-    top:0;
+.video-responsive iframe {
     height:100%;
-    width:100%;
+    left:0;
     position:absolute;
+    top:0;
+    width:100%;
 }
 
 
