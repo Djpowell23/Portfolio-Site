@@ -181,8 +181,34 @@ $('#project-list').on('click','#tunedea', function() {
    $('#video-player').append(currentVideo);
 });
 
-// Clear Video Player and Project Details when project buttons are clicked
-$('.prj-btn').on('click',function() {
-    $('#video-player').empty();
-    $('#project-details').empty();
-});
+// Show Liri Node App Video
+$('#project-list').on('click','#liri', function() {
+    // Create variable with new video
+    // currentVideo = $('<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+     
+     // Images to take video spot until I can record them
+     $('#video-player').append(
+         '<img class="placeholder" style="width:620px; height:400px;" ' + 
+         'src="assets/images/liri-img.png"' + 'alt="liri-image">' + '</img>'
+     );
+ 
+    // Create variable to store Link-To-Code Button
+    var codeBtn = $('<button>');
+    // Add classes to codeBtn
+    codeBtn.addClass('detail-btn');
+    // Add onclick event
+    codeBtn.attr('onClick','window.open("https://github.com/Djpowell23/liri-node-app")');
+    // Add text to Button
+    codeBtn.text('Link to Code');
+ 
+    // Append Buttons to HTML
+    $('#project-details').append(codeBtn);
+    // Append Video to video player id
+    $('#video-player').append(currentVideo);
+ });
+ 
+ // Clear Video Player and Project Details when project buttons are clicked
+ $('.prj-btn').on('click',function() {
+     $('#video-player').empty();
+     $('#project-details').empty();
+ });
