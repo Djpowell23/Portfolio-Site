@@ -161,7 +161,7 @@ $('#project-list').on('click','#tunedea', function() {
    // Add classes to codeBtn
    codeBtn.addClass('detail-btn');
    // Add onclick event
-   codeBtn.attr('onClick','window.open("https://github.com/Djpowell23/Project-1")');
+   codeBtn.attr('onClick','window.open("https://github.com/Djpowell23/Tunedea")');
    // Add text to Button
    codeBtn.text('Link to Code');
 
@@ -170,7 +170,7 @@ $('#project-list').on('click','#tunedea', function() {
    // Add classes to siteBtn
    siteBtn.addClass('detail-btn');
    // Add onclick event
-   siteBtn.attr('onClick','window.open("https://djpowell23.github.io/Project-1/")')
+   siteBtn.attr('onClick','window.open("https://djpowell23.github.io/Tunedea/")')
    // Add text to button
    siteBtn.text('Link to Site');
 
