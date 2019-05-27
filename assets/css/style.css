@@ -89,8 +89,24 @@ body {
     display: inline-block;
 }
 
+.about-section {
+    font-size: 20px;
+}
+
 hr {
     background-color: white;
+}
+
+.profile-col {
+    border-right: 1px solid white;
+}
+
+.profile-pic {
+    padding: 0;
+}
+
+.software {
+    border-left: 1px solid white;
 }
 
 /* Bootstrap CSS */
@@ -115,12 +131,13 @@ hr {
 
 /* Testing */
 .container {
-    border: 2px solid white;
+    border: 1px solid white;
     margin: 0 auto;
+    padding: 0;
 }
 
-.col-md-4  {
-    border-right: 1px solid white;
+.col-md-4, .col-md-2, .col-md-7, .col-md-3 {
+    /* border-right: 1px solid white; */
     margin: 0 auto;
 }
 
