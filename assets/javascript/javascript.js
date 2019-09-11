@@ -411,6 +411,82 @@ $("#project-list").on("click", "#postivism", function() {
   $("#video-player").append(currentVideo);
 });
 
+// Show Clicking Bad
+$("#project-list").on("click", "#clickingBad", function() {
+  // Create variable with new video
+  // currentVideo = $('<iframe width="560" height="315" src="https://youtu.be/v7Yat-rtLGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+
+  // Images to take video spot until I can record them
+  $("#video-player").append(
+    '<img class="placeholder" style="width:620px; height:400px;" ' +
+      'src="assets/images/clickingBad.jpg"' +
+      'alt="clickingBad-img">' +
+      "</img>"
+  );
+
+  // Create variable to store Link-To-Code Button
+  var codeBtn = $("<button>");
+  // Add classes to codeBtn
+  codeBtn.addClass("detail-btn");
+  // Add onclick event
+  codeBtn.attr(
+    "onClick",
+    'window.open("https://github.com/Djpowell23/clickingBad")'
+  );
+  // Add text to Button
+  codeBtn.text("Link to Code");
+
+  // Create variable to store Link-To-Website Button
+  var siteBtn = $("<button>");
+  // Add classes to siteBtn
+  siteBtn.addClass("detail-btn");
+  // Add onclick event
+  siteBtn.attr(
+    "onClick",
+    'window.open("https://djpowell23.github.io/clickingBad/")'
+  );
+  // Add text to button
+  siteBtn.text("Link to Site");
+
+  // Append Buttons to HTML
+  $("#project-details").append(codeBtn);
+  $("#project-details").append(siteBtn);
+  // Append Video to video player id
+  $("#video-player").append(currentVideo);
+});
+
+// Show Say Hay
+$("#project-list").on("click", "#sayHay", function() {
+  // Create variable with new video
+  // currentVideo = $('<iframe width="560" height="315" src="https://youtu.be/v7Yat-rtLGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+
+  // Images to take video spot until I can record them
+  $("#video-player").append(
+    '<img class="placeholder" style="width:300px; height:400px;" ' +
+      'src="assets/images/sayHay.jpg"' +
+      'alt="sayHay-img">' +
+      "</img>"
+  );
+
+  // Create variable to store Link-To-Code Button
+  var codeBtn = $("<button>");
+  // Add classes to codeBtn
+  codeBtn.addClass("detail-btn");
+  // Add onclick event
+  codeBtn.attr(
+    "onClick",
+    'window.open("https://github.com/Djpowell23/Project-3")'
+  );
+  // Add text to Button
+  codeBtn.text("Link to Code");
+
+  // Append Buttons to HTML
+  $("#project-details").append(codeBtn);
+  $("#project-details").append(siteBtn);
+  // Append Video to video player id
+  $("#video-player").append(currentVideo);
+});
+
 // Clear Video Player and Project Details when project buttons are clicked
 $(".prj-btn").on("click", function() {
   $("#video-player").empty();
